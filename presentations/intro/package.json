@@ -1,0 +1,24 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "Intro presentation for moonbeam",
+  "main": "index.js",
+  "scripts": {
+    "dev": "mdx-deck main.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackclub/moonbeam.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackclub/moonbeam/issues"
+  },
+  "homepage": "https://github.com/hackclub/moonbeam#readme",
+  "devDependencies": {
+    "mdx-deck": "4.0.0"
+  },
+  "dependencies": {
+    "@hackclub/theme": "^0.3.3"
+  }
+}
