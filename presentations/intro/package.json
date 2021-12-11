@@ -4,7 +4,8 @@
   "description": "Intro presentation for moonbeam",
   "main": "index.js",
   "scripts": {
-    "dev": "mdx-deck main.mdx"
+    "dev": "mdx-deck main.mdx",
+    "build": "mdx-deck build main.mdx"
   },
   "repository": {
     "type": "git",
