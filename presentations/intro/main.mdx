@@ -1,0 +1,31 @@
+import hackclubTheme from '@hackclub/theme';
+import './load.css';
+import { Heading, Box } from 'theme-ui';
+
+export const theme = hackclubTheme;
+
+<Box sx={{ display: 'flex', flexDirection: 'column' }}>
+  <Heading
+    as="h1"
+    variant="ultratitle"
+    sx={{
+      textShadow: 'text',
+      filter: 'drop-shadow(0 -2px 4px rgba(0,0,0,0.5))',
+      WebkitFilter: 'drop-shadow(0 -2px 4px rgba(0,0,0,0.5))',
+      maxWidth: [null, 'copyUltra'],
+      my: [3, 4],
+      mx: 'auto',
+      zIndex: 1,
+      WebkitTextStroke: '#1f2d3d',
+      WebkitTextStrokeWidth: ['3px', '4px'],
+      WebkitTextFillColor: 'white',
+    }}
+  >
+    Moonbeam Introduction
+  </Heading>
+  <Heading as="h2">2021</Heading>
+</Box>
+
+---
+
+Time
