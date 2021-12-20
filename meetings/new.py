@@ -11,7 +11,30 @@ ordinal = (
 folder = now.strftime("%Y - %B").lower()
 file = os.path.join(folder, f"{str(now.day)}{ordinal}.md")
 template = now.strftime(
-    f"# %-m{ordinal} of %B\n\n## Hardware\n\n-\n\n## Software\n\n-\n\n## Communications\n\n-\n\n## Other\n\n-\n"
+    f"""# %-d{ordinal} of %B
+
+Recording of meeting: []()
+
+## tl;dr
+
+-
+
+## Hardware
+
+-
+
+## Software
+
+-
+
+## Communications
+
+-
+
+## Other
+
+-
+"""
 )
 
 
